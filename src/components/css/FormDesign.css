@@ -1,0 +1,52 @@
+.form-control {
+  margin-top: 2rem;
+  font-size: 3rem;
+  background-color: yellow;
+  height: 30vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control .label {
+    color: blue;
+    font-weight: 700;
+}
+
+.form-control .label.err {
+    color: red;
+}
+
+.form-control .inputText{
+    font-size: 3rem;
+    padding-left: 2rem ;
+    height: 4rem;
+    width: 100%;
+    border-radius: .8rem;
+}
+.form-control .inputText.err{
+    background-color: coral;
+}
+
+.form-control .inputText:hover{
+    border: .1rem double skyblue;
+}
+
+.form-control button{
+    font-size: 2rem;
+    padding: .5rem 2rem ;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    background-color: white;
+    font-weight: 700;
+    font-family: monospace;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.form-control button:hover{
+    background-color: #000;
+    color: white;
+    border: .1rem solid white;
+}

@@ -1,0 +1,16 @@
+.item-handler{
+    font-size: 3rem;
+    background-color: yellow;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    width: 70vw;
+    text-align: center;
+    font-family: cursive;
+    color: green;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.item-handler:hover{
+    background-color: rgb(211, 211, 18);
+}

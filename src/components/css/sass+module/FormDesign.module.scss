@@ -1,0 +1,67 @@
+$white-color: #fff;
+
+.form-control {
+  margin-top: 2rem;
+  font-size: 3rem;
+  background-color: yellow;
+  height: 30vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .label {
+    color: blue;
+    font-weight: 700;
+  }
+
+  .label.err {
+    color: red;
+  }
+
+  .inputText {
+    font-size: 3rem;
+    padding-left: 2rem;
+    height: 4rem;
+    width: 100%;
+    border-radius: 0.8rem;
+
+    &:hover {
+      border: 0.1rem double skyblue;
+    }
+  }
+
+  .inputText.err {
+    background-color: coral;
+  }
+
+  button {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    background-color: $white-color;
+    font-weight: 700;
+    font-family: monospace;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #000;
+        color: $white-color;
+        border: 0.1rem solid $white-color;
+      }
+  }
+}
+
+//rem no use karvathi responsive banavu easy thay......just html set
+@media screen and (max-width: 600px) {
+  html{
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 415px) {
+  html{
+    font-size: 40%;
+  }
+}
